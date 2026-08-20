@@ -51,4 +51,5 @@ export class EditorTopbarComponent {
    *  This keeps the topbar a thin presentational shell. */
   readonly undoRequested = output<void>();
   readonly redoRequested = output<void>();
+
 }
