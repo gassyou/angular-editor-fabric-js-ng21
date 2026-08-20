@@ -600,6 +600,7 @@ export class EditorComponent implements OnInit, AfterViewInit, OnDestroy {
     this.printSettingVisible.set(true);
   }
 
+  // 跟新打印设置
   updatePrintSetting(printSetting: PrintSetting): void {
     this.template.update((t) => ({
       ...t,
